@@ -20,16 +20,16 @@
 
 // Pins to use for WiFi; these defaults are for an Adafruit Feather M0 WiFi.
 #define WIFI_CS_PIN 8
-#define WIFI_IRQ_PIN 7
-#define WIFI_RESET_PIN 4
+#define WIFI_IRQ_PIN 14
+#define WIFI_RESET_PIN 12
 #define WIFI_ENABLE_PIN 2
 
 // Pins to use for SoftwareSerial. Boards that don't use SoftwareSerial, and
 // instead provide their own Serial1 connection through fixed pins (like the
 // aforementioned Feather) will ignore these settings and use their own.
 // On the Feather, these pins are marked "RX0" and "TX1".
-#define SERIAL_RX_PIN 2
-#define SERIAL_TX_PIN 3
+#define SERIAL_RX_PIN 36
+#define SERIAL_TX_PIN 37
 // A different baud rate to communicate with the Meshtastic device can be specified here
 #define BAUD_RATE 9600
 
